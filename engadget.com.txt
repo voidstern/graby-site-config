@@ -4,6 +4,7 @@ body: //div[contains(@class, 'o-article_block')]
 strip_id_or_class: engadget-article-footer
 strip_id_or_class: right-ads-rail
 
+http_header(User-Agent): Mozilla/5.0 (platform; rv:gecko-version) Gecko/gecko-trail Firefox/firefox-version
 prune: no
 
-test_url: http://www.engadget.com/2011/05/20/screen-grabs-the-mentalist-takes-the-ipad-to-new-heights/
+test_url: https://www.engadget.com/2235700/amazon-is-severing-ties-with-two-other-mmos/

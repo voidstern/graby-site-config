@@ -1,0 +1,12 @@
+title: //h1[contains(concat(' ',normalize-space(@class),' '),' entry-title ')]
+body: //div[contains(concat(' ',normalize-space(@class),' '),' entry-content ')]
+body: //header[contains(concat(' ',normalize-space(@class),' '),' flex ')]
+date: //div[contains(concat(' ',normalize-space(@class),' '),' entry-author ')]//div[contains(concat(' ',normalize-space(@class),' '),' flex ') and (contains(concat(' ',normalize-space(@class),' '),' flex-col '))]//time
+
+strip_id_or_class: col-span-1
+strip_id_or_class: px-1
+strip_id_or_class: px-2
+strip_id_or_class: py-1
+
+
+test_url: https://www.nicolaporro.it/caro-porro-altro-che-proust-sotto-lombrellone-ecco-il-libro-che-dovreste-leggere/

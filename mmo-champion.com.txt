@@ -1,5 +1,11 @@
 title: //h1
+title: //h1[contains(concat(' ',normalize-space(@class),' '),' article_title ')]
 body: //div[@id = 'article_content']/div[contains(@class,'article')]
+body: //div[@id='article_content']
 author: //sub[@class = 'article_promoted_text']/a[starts-with(@href, 'member')]
 date: //div[@class = 'article_username_container']
-test_url: http://www.mmo-champion.com/content/2688-Other-Press-Tour-Interviews-A-Night-in-Mists-of-Pandaria-Blue-Posts-MoP-Screenshot
+
+
+web_view_load: yes
+
+test_url: https://www.mmo-champion.com/content/14424-Patch-12-1-Extended-Maintenance

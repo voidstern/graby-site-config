@@ -1,0 +1,8 @@
+title: //h1[contains(concat(' ',normalize-space(@class),' '),' title-fonted ')]
+body: //div[contains(concat(' ',normalize-space(@class),' '),' news-body-inner ')]
+author: //span[contains(concat(' ',normalize-space(@class),' '),' author-name ')]//a
+date: //time
+
+
+
+test_url: https://www.pianetalecce.it/news/266916498950/dalla-vecchia-lecce-si-tratta-sulla-formula-cosa-propongono-i-giallorossi-cosa-i-granata-le-ultime

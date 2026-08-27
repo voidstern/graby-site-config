@@ -1,11 +1,15 @@
 title: //h2[contains(concat(' ',normalize-space(@class),' '),' font-semibold ')]
+title: //h1[contains(concat(' ',normalize-space(@class),' '),' font-semibold ')]
 body: //div[contains(@class, 'article-content')]
 body: //div[contains(@class, 'article__body__content')]
 body: //div[contains(concat(' ',normalize-space(@class),' '),' eObytK ')]
+author: //p[contains(concat(' ',normalize-space(@class),' '),' text-left ')]
 date: //time[contains(@class, 'article__date published')]/@datetime
+date: //div[contains(concat(' ',normalize-space(@class),' '),' text-grey-mid-light ')]
 
 strip: //aside
 strip: //div[contains(concat(' ',normalize-space(@class),' '),' czMzUM ')]
+strip: //div[contains(concat(' ',normalize-space(@class),' '),' flex ') and (contains(concat(' ',normalize-space(@class),' '),' items-center ')) and (contains(concat(' ',normalize-space(@class),' '),' font-sans '))]
 strip: //footer
 strip: //header
 strip: //p[contains(concat(' ',normalize-space(@class),' '),' glDrug ')]
@@ -37,10 +41,7 @@ strip_id_or_class: sc-d0d42ecb-6
 strip_id_or_class: text-7xl
 strip_id_or_class: toggleMobileCreditBtn
 
+rewrite: yes
 prune: no
 
-test_url: https://aeon.co/essays/historys-shaming-fascination-for-the-so-called-idiot-savant?utm_source=rss-feed
-test_url: https://aeon.co/essays/how-did-creativity-become-an-engine-of-economic-growth
-test_url: https://aeon.co/essays/when-ais-do-science-it-will-be-strange-and-incomprehensible
-test_url: https://aeon.co/essays/why-physics-today-stands-on-the-wings-of-angels-and-demons
 test_url: https://aeon.co/essays/william-herschels-sensors-let-us-see-the-invisible-universe

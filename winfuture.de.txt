@@ -1,12 +1,11 @@
 title: //h1/span
-
 body: //div[@id="news_content"]
-
 author: //div[@class="bookmarks_btm"]/p[1]/a[1]/text()
-
+author: //span[contains(concat(' ',normalize-space(@class),' '),' author ')]//a[contains(concat(' ',normalize-space(@class),' '),' newslink ')]
 date: //span[@class='date']
+date: //a[contains(concat(' ',normalize-space(@class),' '),' date ')]
 
-# Rubrikenbild entfernen
 strip: //div[@id="news_content"]/a[1]
 
-test_url: http://winfuture.de/news,69672.html
+
+test_url: https://winfuture.de/news,152954.html

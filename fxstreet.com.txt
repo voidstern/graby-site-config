@@ -1,0 +1,7 @@
+title: //h1[contains(concat(' ',normalize-space(@class),' '),' text-neutral-emphasis ')]
+
+strip_id_or_class: fxs-faq-module-container
+strip_id_or_class: fxs-faq-module-title
+
+
+test_url: https://www.fxstreet.com/analysis/australian-dollar-price-forecast-lift-off-202608171731
